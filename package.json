@@ -2,6 +2,10 @@
 	"name": "website",
 	"type": "module",
 	"version": "0.0.1",
+	"engines": {
+		"node": ">=16.12.0",
+		"npm": ">=8.0.0 <9.0.0"
+	},
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
